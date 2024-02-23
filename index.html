@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+                extend: {
+                    colors: {
+                        darkblue:"#232340",
+                        grey:"#232340E5",
+                        offwhite:"#F5F5F5",
+                        softblue:"#5468E7",
+                    },
+                    fontFamily: {
+                        lexend: ["Lexend Deca", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body>
+    <footer class="bg-darkblue ">
+        <div class=" pl-5 pt-12 lg:flex lg;flex-row lg:justify-center lg:gap-[130px] lg:pb-[230px]">
+            <div class="flex flex-col w-[168px] gap-4">
+                <img src="https://i.postimg.cc/qR5xg9L3/team.png"  class="w-[138px]" alt="FlowBite Logo" />
+                <p class="text-white text-[16px] text-normal mt-4">Collaboration platform for mordern team </p>
+            </div>
+            <div class=" flex flex-col-reverse sm:flex-col lg:flex-row  gap-12  ">
+                <div class=" gap-12 sm:flex sm:flex-row">
+                    <div>
+                        <h2 class="text-[24px] font-semibold text-softblue ">Company</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class=" hover:underline">Product</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Blog</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-[24px] font-semibold text-softblue">Features</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Screen Sharing</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">iOS & Android Apps</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">File Sharing</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">User Managment</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-[24px] font-semibold text-softblue">Contact Us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">info@teamapp.com</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">1-800-200-300</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">1010 Sunset Blv.
+                                Palo Alto, California</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Stay up to date </h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 class=" text-[24px] font-semibold text-softblue">Stay up to date </h2>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Subscribe to our newseller</a>
+                        </li>
+                    </ul>
+                    <form class="">   
+                        <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                        <input type="search" id="default-search" class="w-[268px] px-4 py-[11px] text-sm text-gray border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20 ml-10 pb-10 ">© Copyright Team Inc </div>
+    </footer>
+    
+</body>
+</html>
